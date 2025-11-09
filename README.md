@@ -79,7 +79,7 @@ seg_out <= not digit_data(6 downto 0);
 - Add more test vectors in tb to validate DP, polarity and refresh rate.
 - Consider exposing refresh speed as a configurable generic.
 
-# What this project lacks
+## What this project lacks
 - Digit‑enable polarity & default
   - The decoder currently uses active‑low one‑hot outputs (default enable pattern `1110` for digit0). This may differ from target hardware; note the default is not `1111`.
 - Bit ordering & segment mapping not enforced
@@ -103,5 +103,16 @@ Suggested quick fixes / additions
 - Expand testbench with explicit 7‑segment encodings, DP tests, polarity inversion tests and a waveform VCD script.
 - Document expected hardware wiring (common‑cathode vs common‑anode) and the default `dig_sel` polarity.
 
-## License
-- Add your preferred license or keep for private use.
+## Simulation Results
+Event 1 : rst is '1' for 5 clock cycles then rst is set to '0'.
+<img width="1365" height="528" alt="EVENT 1" src="https://github.com/user-attachments/assets/d9c4927e-1427-426d-9e35-48d0cfcfe002" />
+Event 2 : data_in is changed. Notice that data_in and seg_out changed instantly while dig_sel waited until next clock event, this is because data_in and seg_out connected combinationally while dig_sel is connected synchronous sequentially.
+<img width="1368" height="527" alt="EVENT 2" src="https://github.com/user-attachments/assets/734125cb-2daf-42a6-9a1a-a7d35eadf924" />
+Event 3 : rst is set to '1' for 4 clocks, in this period nothing changed except clock signal. Theoretically seg_out and dig_sel will also be set to their default values, in this case its the 1110 and its seg_out value, but coincidentally the state when the rst is triggered was the same as the default values so there is no change happened.
+<img width="1365" height="524" alt="EVENT 3" src="https://github.com/user-attachments/assets/e26a64a9-8006-464e-9fd1-e1819e5872ab" />
+Event 4 : rst is set back to '0', the circuit functions just as before.
+<img width="1367" height="529" alt="EVENT 4" src="https://github.com/user-attachments/assets/c9968554-d6ff-4ffc-a156-1c6329e0340c" />
+
+## Thank you for viewing my repo!
+
+
