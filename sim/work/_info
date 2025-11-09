@@ -1,0 +1,223 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+Edigit_data_mux
+Z0 w1762698213
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dD:/engineer things/Digital System/TDM_for_4_7Segment/sim
+Z4 8D:/engineer things/Digital System/TDM_for_4_7Segment/sim/digit_data_MUX.vhd
+Z5 FD:/engineer things/Digital System/TDM_for_4_7Segment/sim/digit_data_MUX.vhd
+l0
+L4 1
+V?Q9T?]5dmzN1MA0;mNQ>]2
+!s100 8_lIWIUne0U52eAfEBJEU1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1762700147
+!i10b 1
+Z8 !s108 1762700147.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/engineer things/Digital System/TDM_for_4_7Segment/sim/digit_data_MUX.vhd|
+Z10 !s107 D:/engineer things/Digital System/TDM_for_4_7Segment/sim/digit_data_MUX.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 14 digit_data_mux 0 22 ?Q9T?]5dmzN1MA0;mNQ>]2
+!i122 4
+l13
+Z13 L12 16
+VlD_oP;dn]Wda?<Lo1jalR2
+!s100 XhdjOJZFz9RkXW86O_;_W0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edigit_enable_decoder
+Z14 w1762698248
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 5
+R3
+Z16 8D:/engineer things/Digital System/TDM_for_4_7Segment/src/digit_enable_decoder.vhd
+Z17 FD:/engineer things/Digital System/TDM_for_4_7Segment/src/digit_enable_decoder.vhd
+l0
+L5 1
+V>R:RGRTPEToFdFB5?>jO@0
+!s100 [A6;ojgzDFEQd2Aok=:Il0
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/engineer things/Digital System/TDM_for_4_7Segment/src/digit_enable_decoder.vhd|
+Z19 !s107 D:/engineer things/Digital System/TDM_for_4_7Segment/src/digit_enable_decoder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 20 digit_enable_decoder 0 22 >R:RGRTPEToFdFB5?>jO@0
+!i122 5
+l13
+R13
+VR9<eefIoPc[`PMVZY3:Ni3
+!s100 Q_TH<f2MMzlR24B8[4QzS0
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Etb_tdm_for_7segment
+Z20 w1762699338
+R15
+R1
+R2
+!i122 3
+R3
+Z21 8D:/engineer things/Digital System/TDM_for_4_7Segment/tb/tb_TDM_for_7Segment.vhd
+Z22 FD:/engineer things/Digital System/TDM_for_4_7Segment/tb/tb_TDM_for_7Segment.vhd
+l0
+L5 1
+V2LL_JB6>LPa1oXiCWM6zd1
+!s100 O^bN7U?Y@Kg03SPoh49I40
+R6
+32
+R7
+!i10b 1
+Z23 !s108 1762700146.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/engineer things/Digital System/TDM_for_4_7Segment/tb/tb_TDM_for_7Segment.vhd|
+Z25 !s107 D:/engineer things/Digital System/TDM_for_4_7Segment/tb/tb_TDM_for_7Segment.vhd|
+!i113 1
+R11
+R12
+Abhv
+Z26 DEx4 work 16 tdm_for_7segment 0 22 k@2>WmDXmO_NGZJdz]E<=3
+R15
+R1
+R2
+DEx4 work 19 tb_tdm_for_7segment 0 22 2LL_JB6>LPa1oXiCWM6zd1
+!i122 3
+l17
+L8 55
+VI?D1j]gbQzN^hcmIEYQ_E0
+!s100 XS>OcA4G@W^gV51=nWeXA0
+R6
+32
+R7
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Etdm_for_7segment
+Z27 w1762698705
+R1
+R2
+!i122 2
+R3
+Z28 8D:/engineer things/Digital System/TDM_for_4_7Segment/src/TDM_for_7Segment.vhd
+Z29 FD:/engineer things/Digital System/TDM_for_4_7Segment/src/TDM_for_7Segment.vhd
+l0
+L4 1
+Vk@2>WmDXmO_NGZJdz]E<=3
+!s100 I2I;0jRof5Q=ehP_8<V^R1
+R6
+32
+Z30 !s110 1762700146
+!i10b 1
+R23
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/engineer things/Digital System/TDM_for_4_7Segment/src/TDM_for_7Segment.vhd|
+Z32 !s107 D:/engineer things/Digital System/TDM_for_4_7Segment/src/TDM_for_7Segment.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+R26
+!i122 2
+l42
+L14 57
+VJb2VHH1JZm@hmlRiI7]YT2
+!s100 fP]lo:5PiCBXKl;i;dN[?2
+R6
+32
+R30
+!i10b 1
+R23
+R31
+R32
+!i113 1
+R11
+R12
+Etwo_bit_counter
+Z33 w1762695931
+R15
+R1
+R2
+!i122 6
+R3
+Z34 8D:/engineer things/Digital System/TDM_for_4_7Segment/src/two_bit_counter.vhd
+Z35 FD:/engineer things/Digital System/TDM_for_4_7Segment/src/two_bit_counter.vhd
+l0
+L5 1
+VUlmMchczQV<J[3geiDhff1
+!s100 TjoR?0ePQDNFUU0eCG@aW2
+R6
+32
+R7
+!i10b 1
+R8
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/engineer things/Digital System/TDM_for_4_7Segment/src/two_bit_counter.vhd|
+!s107 D:/engineer things/Digital System/TDM_for_4_7Segment/src/two_bit_counter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 15 two_bit_counter 0 22 UlmMchczQV<J[3geiDhff1
+!i122 6
+l16
+L14 15
+VA8z]L1Kb?AHzi8D4TXZ?^1
+!s100 D[hJQFOn?heXgWGT7VYiJ1
+R6
+32
+R7
+!i10b 1
+R8
+R36
+Z37 !s107 D:/engineer things/Digital System/TDM_for_4_7Segment/src/two_bit_counter.vhd|
+!i113 1
+R11
+R12
